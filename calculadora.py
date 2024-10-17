@@ -55,7 +55,8 @@ ttk.Button(root, text='C', command=clear_entry).grid(row=row_val, column=col_val
 
 ttk.Button(root, text='=', command=calculate).grid(row=row_val, column=col_val + 2, columnspan=2, padx=5, pady=5)
 
-
+a=1
+b=2
 root.eval('tk::PlaceWindow . center')
 
 
